@@ -6,9 +6,6 @@
     <title>Read it to me</title>
   </head>
   <body>
-    <button onclick="randomizeUrl()">Reset cache</button>
-    <button onclick="resetLocalStorage(); randomizeUrl();">Restore initial document</button>
-
     <article id="content" contenteditable>
       <h1>Read it to me</h1>
       <p>A web app to make the browser read any text to you</p>
@@ -20,13 +17,13 @@
           such as <a href="https://www.microsoft.com/edge">Microsoft Edge</a>
         </li>
         <li>Change the text in the web page! It's fully editable</li>
-        <li>Enter Immersive Reader mode (F9 on Microsoft Edge for Windows)</li>
+        <li>(optional) Enter Immersive Reader mode (F9 on Microsoft Edge for Windows)</li>
         <li>Click the <em>Read Aloud</em> button</li>
         <li>Eventually change the voice to read in a different language</li>
       </ol>
 
       <h2>Buttons</h2>
-      <p>The two buttons are for:</p>
+      <p>The two buttons below are for:</p>
       <ul>
         <li>
           <strong>Reset cache</strong>: If you need to use the page again, you might need to reset
@@ -142,6 +139,9 @@
         hic. Ullam neque asperiores a mollitia.
       </p>
     </article>
+    
+    <button onclick="randomizeUrl()">Reset cache</button>
+    <button onclick="resetLocalStorage(); randomizeUrl();">Restore initial document</button>
 
     <script>
       const contentEl = document.getElementById("content");
