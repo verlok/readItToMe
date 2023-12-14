@@ -1,6 +1,6 @@
 # Read it to me!
 
-Read it to me is [this web app](https://verlok.github.io/readItToMe/) which allows you to make the browser read any text to you.
+"Read it to me" is a web app that allows you to make the browser read aloud any arbitrary text.
 
 Note: The only browser providing the "read aloud" feature is Microsoft Edge as of December 2023 and it's been so for several years now.
 
