@@ -4,7 +4,7 @@ Read it to me is [this web app](https://verlok.github.io/readItToMe/) which allo
 
 Note: The only browser providing the "read aloud" feature is Microsoft Edge as of December 2023 and it's been so for several years now.
 
-[Open the web app](https://verlok.github.io/readItToMe/) | Download [Microsoft Edge](https://www.microsoft.com/edge/)
+[Open the web app](https://verlok.github.io/readItToMe/) | [Check out Microsoft Edge](https://www.microsoft.com/edge/)
 
 
 ## How to use
